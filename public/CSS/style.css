@@ -1,0 +1,25 @@
+i{
+    font-size: 12px;
+}
+.main-image{
+    height: 100vh;
+    filter: brightness(40%);
+}
+.carousel-caption{
+    bottom: 30%;
+}
+.navbar{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+}
+@media (max-width:576px) {
+    .main-image{
+        height: 60vh;
+    }
+    .carousel-caption{
+        bottom: 40%;
+    }
+}
